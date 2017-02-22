@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D02ECC41E5D3A1800750BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02ECC31E5D3A1800750BA6 /* main.m */; };
+		6D02ECC71E5D3A1800750BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02ECC61E5D3A1800750BA6 /* AppDelegate.m */; };
+		6D02ECCA1E5D3A1800750BA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02ECC91E5D3A1800750BA6 /* ViewController.m */; };
+		6D02ECCD1E5D3A1800750BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D02ECCB1E5D3A1800750BA6 /* Main.storyboard */; };
+		6D02ECCF1E5D3A1900750BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D02ECCE1E5D3A1800750BA6 /* Assets.xcassets */; };
+		6D02ECD21E5D3A1900750BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D02ECD01E5D3A1900750BA6 /* LaunchScreen.storyboard */; };
+		6D02ECDD1E5D3A1900750BA6 /* CherryNumberButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02ECDC1E5D3A1900750BA6 /* CherryNumberButtonTests.m */; };
+		6D02ECE81E5D3A1900750BA6 /* CherryNumberButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02ECE71E5D3A1900750BA6 /* CherryNumberButtonUITests.m */; };
+		6D02ECF81E5D3AE700750BA6 /* ZMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D02ECF71E5D3AE700750BA6 /* ZMButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D02ECD91E5D3A1900750BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D02ECB71E5D3A1800750BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D02ECBE1E5D3A1800750BA6;
+			remoteInfo = CherryNumberButton;
+		};
+		6D02ECE41E5D3A1900750BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D02ECB71E5D3A1800750BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D02ECBE1E5D3A1800750BA6;
+			remoteInfo = CherryNumberButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D02ECBF1E5D3A1800750BA6 /* CherryNumberButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CherryNumberButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D02ECC31E5D3A1800750BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D02ECC51E5D3A1800750BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D02ECC61E5D3A1800750BA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D02ECC81E5D3A1800750BA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D02ECC91E5D3A1800750BA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D02ECCC1E5D3A1800750BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D02ECCE1E5D3A1800750BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D02ECD11E5D3A1900750BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D02ECD31E5D3A1900750BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D02ECD81E5D3A1900750BA6 /* CherryNumberButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryNumberButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D02ECDC1E5D3A1900750BA6 /* CherryNumberButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryNumberButtonTests.m; sourceTree = "<group>"; };
+		6D02ECDE1E5D3A1900750BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D02ECE31E5D3A1900750BA6 /* CherryNumberButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CherryNumberButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D02ECE71E5D3A1900750BA6 /* CherryNumberButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CherryNumberButtonUITests.m; sourceTree = "<group>"; };
+		6D02ECE91E5D3A1900750BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D02ECF61E5D3AE700750BA6 /* ZMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMButton.h; sourceTree = "<group>"; };
+		6D02ECF71E5D3AE700750BA6 /* ZMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D02ECBC1E5D3A1800750BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02ECD51E5D3A1900750BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02ECE01E5D3A1900750BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D02ECB61E5D3A1800750BA6 = {
+			isa = PBXGroup;
+			children = (
+				6D02ECC11E5D3A1800750BA6 /* CherryNumberButton */,
+				6D02ECDB1E5D3A1900750BA6 /* CherryNumberButtonTests */,
+				6D02ECE61E5D3A1900750BA6 /* CherryNumberButtonUITests */,
+				6D02ECC01E5D3A1800750BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D02ECC01E5D3A1800750BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D02ECBF1E5D3A1800750BA6 /* CherryNumberButton.app */,
+				6D02ECD81E5D3A1900750BA6 /* CherryNumberButtonTests.xctest */,
+				6D02ECE31E5D3A1900750BA6 /* CherryNumberButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D02ECC11E5D3A1800750BA6 /* CherryNumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				6D02ECF51E5D3AA700750BA6 /* ZMNumberButton */,
+				6D02ECC51E5D3A1800750BA6 /* AppDelegate.h */,
+				6D02ECC61E5D3A1800750BA6 /* AppDelegate.m */,
+				6D02ECC81E5D3A1800750BA6 /* ViewController.h */,
+				6D02ECC91E5D3A1800750BA6 /* ViewController.m */,
+				6D02ECCB1E5D3A1800750BA6 /* Main.storyboard */,
+				6D02ECCE1E5D3A1800750BA6 /* Assets.xcassets */,
+				6D02ECD01E5D3A1900750BA6 /* LaunchScreen.storyboard */,
+				6D02ECD31E5D3A1900750BA6 /* Info.plist */,
+				6D02ECC21E5D3A1800750BA6 /* Supporting Files */,
+			);
+			path = CherryNumberButton;
+			sourceTree = "<group>";
+		};
+		6D02ECC21E5D3A1800750BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D02ECC31E5D3A1800750BA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D02ECDB1E5D3A1900750BA6 /* CherryNumberButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D02ECDC1E5D3A1900750BA6 /* CherryNumberButtonTests.m */,
+				6D02ECDE1E5D3A1900750BA6 /* Info.plist */,
+			);
+			path = CherryNumberButtonTests;
+			sourceTree = "<group>";
+		};
+		6D02ECE61E5D3A1900750BA6 /* CherryNumberButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D02ECE71E5D3A1900750BA6 /* CherryNumberButtonUITests.m */,
+				6D02ECE91E5D3A1900750BA6 /* Info.plist */,
+			);
+			path = CherryNumberButtonUITests;
+			sourceTree = "<group>";
+		};
+		6D02ECF51E5D3AA700750BA6 /* ZMNumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				6D02ECF61E5D3AE700750BA6 /* ZMButton.h */,
+				6D02ECF71E5D3AE700750BA6 /* ZMButton.m */,
+			);
+			path = ZMNumberButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D02ECBE1E5D3A1800750BA6 /* CherryNumberButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D02ECEC1E5D3A1900750BA6 /* Build configuration list for PBXNativeTarget "CherryNumberButton" */;
+			buildPhases = (
+				6D02ECBB1E5D3A1800750BA6 /* Sources */,
+				6D02ECBC1E5D3A1800750BA6 /* Frameworks */,
+				6D02ECBD1E5D3A1800750BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CherryNumberButton;
+			productName = CherryNumberButton;
+			productReference = 6D02ECBF1E5D3A1800750BA6 /* CherryNumberButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D02ECD71E5D3A1900750BA6 /* CherryNumberButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D02ECEF1E5D3A1900750BA6 /* Build configuration list for PBXNativeTarget "CherryNumberButtonTests" */;
+			buildPhases = (
+				6D02ECD41E5D3A1900750BA6 /* Sources */,
+				6D02ECD51E5D3A1900750BA6 /* Frameworks */,
+				6D02ECD61E5D3A1900750BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D02ECDA1E5D3A1900750BA6 /* PBXTargetDependency */,
+			);
+			name = CherryNumberButtonTests;
+			productName = CherryNumberButtonTests;
+			productReference = 6D02ECD81E5D3A1900750BA6 /* CherryNumberButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D02ECE21E5D3A1900750BA6 /* CherryNumberButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D02ECF21E5D3A1900750BA6 /* Build configuration list for PBXNativeTarget "CherryNumberButtonUITests" */;
+			buildPhases = (
+				6D02ECDF1E5D3A1900750BA6 /* Sources */,
+				6D02ECE01E5D3A1900750BA6 /* Frameworks */,
+				6D02ECE11E5D3A1900750BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D02ECE51E5D3A1900750BA6 /* PBXTargetDependency */,
+			);
+			name = CherryNumberButtonUITests;
+			productName = CherryNumberButtonUITests;
+			productReference = 6D02ECE31E5D3A1900750BA6 /* CherryNumberButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D02ECB71E5D3A1800750BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhangmin;
+				TargetAttributes = {
+					6D02ECBE1E5D3A1800750BA6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					6D02ECD71E5D3A1900750BA6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D02ECBE1E5D3A1800750BA6;
+					};
+					6D02ECE21E5D3A1900750BA6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D02ECBE1E5D3A1800750BA6;
+					};
+				};
+			};
+			buildConfigurationList = 6D02ECBA1E5D3A1800750BA6 /* Build configuration list for PBXProject "CherryNumberButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D02ECB61E5D3A1800750BA6;
+			productRefGroup = 6D02ECC01E5D3A1800750BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D02ECBE1E5D3A1800750BA6 /* CherryNumberButton */,
+				6D02ECD71E5D3A1900750BA6 /* CherryNumberButtonTests */,
+				6D02ECE21E5D3A1900750BA6 /* CherryNumberButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D02ECBD1E5D3A1800750BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02ECD21E5D3A1900750BA6 /* LaunchScreen.storyboard in Resources */,
+				6D02ECCF1E5D3A1900750BA6 /* Assets.xcassets in Resources */,
+				6D02ECCD1E5D3A1800750BA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02ECD61E5D3A1900750BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02ECE11E5D3A1900750BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D02ECBB1E5D3A1800750BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02ECF81E5D3AE700750BA6 /* ZMButton.m in Sources */,
+				6D02ECCA1E5D3A1800750BA6 /* ViewController.m in Sources */,
+				6D02ECC71E5D3A1800750BA6 /* AppDelegate.m in Sources */,
+				6D02ECC41E5D3A1800750BA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02ECD41E5D3A1900750BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02ECDD1E5D3A1900750BA6 /* CherryNumberButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D02ECDF1E5D3A1900750BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D02ECE81E5D3A1900750BA6 /* CherryNumberButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D02ECDA1E5D3A1900750BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D02ECBE1E5D3A1800750BA6 /* CherryNumberButton */;
+			targetProxy = 6D02ECD91E5D3A1900750BA6 /* PBXContainerItemProxy */;
+		};
+		6D02ECE51E5D3A1900750BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D02ECBE1E5D3A1800750BA6 /* CherryNumberButton */;
+			targetProxy = 6D02ECE41E5D3A1900750BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D02ECCB1E5D3A1800750BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D02ECCC1E5D3A1800750BA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D02ECD01E5D3A1900750BA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D02ECD11E5D3A1900750BA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D02ECEA1E5D3A1900750BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D02ECEB1E5D3A1900750BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D02ECED1E5D3A1900750BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CherryNumberButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.left.CherryNumberButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D02ECEE1E5D3A1900750BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CherryNumberButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.left.CherryNumberButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D02ECF01E5D3A1900750BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CherryNumberButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.left.CherryNumberButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherryNumberButton.app/CherryNumberButton";
+			};
+			name = Debug;
+		};
+		6D02ECF11E5D3A1900750BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CherryNumberButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.left.CherryNumberButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CherryNumberButton.app/CherryNumberButton";
+			};
+			name = Release;
+		};
+		6D02ECF31E5D3A1900750BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CherryNumberButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.left.CherryNumberButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CherryNumberButton;
+			};
+			name = Debug;
+		};
+		6D02ECF41E5D3A1900750BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CherryNumberButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.left.CherryNumberButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CherryNumberButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D02ECBA1E5D3A1800750BA6 /* Build configuration list for PBXProject "CherryNumberButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02ECEA1E5D3A1900750BA6 /* Debug */,
+				6D02ECEB1E5D3A1900750BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D02ECEC1E5D3A1900750BA6 /* Build configuration list for PBXNativeTarget "CherryNumberButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02ECED1E5D3A1900750BA6 /* Debug */,
+				6D02ECEE1E5D3A1900750BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D02ECEF1E5D3A1900750BA6 /* Build configuration list for PBXNativeTarget "CherryNumberButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02ECF01E5D3A1900750BA6 /* Debug */,
+				6D02ECF11E5D3A1900750BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D02ECF21E5D3A1900750BA6 /* Build configuration list for PBXNativeTarget "CherryNumberButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D02ECF31E5D3A1900750BA6 /* Debug */,
+				6D02ECF41E5D3A1900750BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D02ECB71E5D3A1800750BA6 /* Project object */;
+}
